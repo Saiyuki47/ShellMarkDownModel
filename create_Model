@@ -1,0 +1,32 @@
+date=$(date +'%d.%m.%Y')
+su_count=$(ls -dq *lerntagebuch* | wc -l)
+su_count=$((su_count+1))
+name=$"lerntagebuch_${date}_SU${su_count}.md"
+
+touch $name
+
+echo "# Mein Lerntagebuch für Programmiermethoden und -werkzeuge von YOUR NAME" >> $name
+echo "## SU${su_count} ${date}" >> $name
+echo "" >> $name
+echo "" >> $name
+echo "" >> $name
+
+echo "### Lernziele (Was waren die wesentliche Inhalte der letzen Vorlesung - Stichpunktartig)" >> $name
+echo "" >> $name
+echo "" >> $name
+echo "" >> $name
+
+echo "### Erkenntnis (Was kann ich für das Gruppenprojekt anwenden - 2-3 Sätze)" >> $name
+echo "" >> $name
+echo "" >> $name
+echo "" >> $name
+
+echo "### Wiederholung (Einen Begriff/Ein Thema erklären - 2-3 Sätze)" >> $name
+echo "" >> $name
+echo "" >> $name
+echo "" >> $name
+
+echo "### Kritik (Kritik oder Lob für den Dozenten - Optional 2-3 Sätze)" >> $name
+echo "" >> $name
+echo " - Nichts" >> $name
+echo "" >> $name
