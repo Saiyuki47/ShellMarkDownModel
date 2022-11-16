@@ -1,7 +1,7 @@
 date=$(date +'%d.%m.%Y')
 su_count=$(ls -dq *lerntagebuch* | wc -l)
 su_count=$((su_count+1))
-name=$"lerntagebuch_${date}_SU${su_count}.md"
+name=$"lerntagebuch_SU${su_count}_${date}.md"
 
 touch $name
 
