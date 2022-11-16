@@ -1,5 +1,5 @@
 # Mein Lerntagebuch für Programmiermethoden und -werkzeuge von YOUR NAME
-## SU1 02.11.2022
+## SU1 16.11.2022
 
 
 
